@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Aurela Corta</title>
+    <link rel="stylesheet" href="style/stylegeneric.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9d39313ce2.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT"
+            crossorigin="anonymous">
+    </script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+
+
+  <body>
+
+    <header>
+    <div class="headline">
+          <a href="index.html">
+            <img calss="logo" src="images/logo_orange_S.png"/>
+          </a>
+          <nav class="menu">
+            <ul class="nav__links">
+              <li><a href="band.html" class="bandlink">BAND</a></li>
+              <li><a href="music.html">MUSIC</a></li>
+              <li><a href="events.html">EVENTS</a></li>
+              <li><a href="shop.html">SHOP</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="titletext">
+                <h1 class="gold">THE GALLERY</h1>
+                <p>Take part to our memories <br> Remembering good times and good vibes</p>
+            </div>
+          </nav>
+          <div class="icons">
+
+          </div>
+
+
+      </div>
+      <div class="hamburger">
+        <a href="menu.html">
+        <span></span>
+        <span></span>
+        <span></span></a>
+      </div>
+
+
+    </header>
+
+    <div class="menuicon">
+      <i onclick="topFunction()" id="myBtn" title="Go to top" class="fa-solid fa-circle-chevron-up fa-2x" style="position: fixed"></i>
+    </div>
+
+    <nav>
+      <div class="lang-menu">
+        <div class="selected-lang">
+          ENG
+        </div>
+        <ul>
+          <li>
+            <a class="en" href="">English</a>
+          </li>
+          <li>
+            <a class="lad" href="">Ladin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    <main>
+      <section class="secgallery">
+                <!-- Images used to open the lightbox SEE LINK:https://www.w3schools.com/howto/howto_js_lightbox.asp-->
+          <div class="row">
+            <div class="column">
+              <img src="images/1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/5.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/6.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/7.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/8.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/9.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/10.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/11.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/12.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/13.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/14.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/15.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+            </div>
+            <div class="column">
+              <img src="images/16.jpg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+            </div>
+          </div>
+
+          <!-- The Modal/Lightbox -->
+          <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+              <div class="mySlides">
+                <img src="images/1.jpg" style="width:100%">
+                <div class="numbertext">Les prümes proben tl garage de Gotti, 2019</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/2.jpg" style="width:100%">
+                <div class="numbertext">Le prüm Auftritt al Durnis Pub, 2019</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/3.jpg" style="width:100%">
+                <div class="numbertext">Le prüm Auftritt al Durnis Pub, 2019</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/4.jpg" style="width:100%">
+                <div class="numbertext">Le prüm Auftritt al Durnis Pub, 2019</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/5.jpg" style="width:100%">
+                <div class="numbertext">Leitner Vip Lounge, World Cup Alta Badia 2019</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/6.jpg" style="width:100%">
+                <div class="numbertext">Leitner Vip Lounge, World Cup Alta Badia 2019</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/7.jpg" style="width:100%">
+                <div class="numbertext">Südtirol Home, World Championships Biathlon, Antholz 2020</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/8.jpg" style="width:100%">
+                <div class="numbertext">Südtirol Home, World Championships Biathlon, Antholz 2020</div>
+              </div>
+
+              <div class="mySlides">
+                <img src="images/9.jpg" style="width:100%">
+                <div class="numbertext">Südtirol Home, World Championships Biathlon, Antholz 2020</div>
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img src="images/10.jpg" style="width:100%">
+                <div class="numbertext">Rifugio Pralongià, 2020</div>
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img src="images/11.jpg" style="width:100%">
+                <div class="numbertext">Reportage pur la TV ladina, 2020</div>
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img src="images/12.jpg" style="width:100%">
+                <div class="numbertext">Reportage pur la TV ladina, 2020</div>
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img src="images/13.jpg" style="width:100%">
+                <div class="numbertext">Noza de Judith y Devis, 2021</div>
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img src="images/14.jpg" style="width:100%">
+                <div class="numbertext">Prüm iade te studio da Benni, Badia 2022</div>
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img src="images/15.jpg" style="width:100%">
+                <div class="numbertext">Ermes</div>
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext"></div>
+                <img src="images/16.jpg" style="width:100%">
+                <div class="numbertext">Nos 3</div>
+              </div>
+
+              <!-- Next/previous controls -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+              <!-- Caption text -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+
+            </div>
+          </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <h3>Email: ermescosta22@gmail.com</h3>
+      <h3>Cell. +39 345 035 3271</h3>
+      <h3>
+        <a href="https://open.spotify.com/artist/3bU8l9KiupGlQDWetIZX4U?si=q41eJJTAR_KIMX88gt-u5g" target="_blank"><i class="fa-brands fa-spotify fa-2x fa-fw"></i></a>
+        <a href="https://www.youtube.com/channel/UC8rtuOqwoQbwIZ7qvGGjouw/featured" target="_blank"><i class="fa-brands fa-youtube fa-2x fa-fw"></i></a>
+        <a href="https://instagram.com/aurela_corta?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram fa-2x fa-fw"></i></a>
+        <a href="mailto:ermescosta22@gmail.com" target="_blank"><i class="fa-solid fa-envelope fa-2x fa-fw"></i></a></h3><br>
+      <h3>Copyright Anna Laura Irsara</h3>
+      <a href="documentation.html"><h3 class="footertext">Documentation</h3></a>
+    </footer>
+
+
+    <script type="text/javascript">
+    let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+
+
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+<script>
+function topFunction() {
+
+window.scrollTo({top: 0, behavior: 'smooth'});
+
+}
+
+</script>
+
+  </body>
+</html>
