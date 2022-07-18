@@ -1,0 +1,128 @@
+/* ! Basic Style */
+
+html {
+  color: #ECEBE4;
+  background-color: #4F5940;}
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  padding: 0;
+  margin: 0;
+  border: 0;}
+
+h1, h2 {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 100px;}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #F2EADF;
+  margin-top: 50px;}
+
+.gold {color: #BF935E;}
+.orange {color: #F26835}
+.darktext {color: #022619}
+
+button {
+  font-size: 20px;
+  margin-top: 75px;
+  margin-bottom: 100px;
+  width: 180px;
+  height: 60px;}
+
+iframe {
+  max-width: 100%;
+  margin-top: 50px;
+  margin-bottom: 100px;}
+
+img {max-width: 100%;}
+
+
+/* ! Header */
+header {
+  background-color: #4F5940}
+
+
+.headline {
+  justify-content: space-between;
+  align-items:flex-start;
+  padding: 80px 80px 80px 60px;}
+
+ul{padding-inline-start: 0px;}
+
+.logo {width: 100%; height: auto;}
+
+
+.menu .nav__links li {display: inline-block; padding-top: 0; padding-left: 0;}
+.nav__links li a {transition: all 0.3s ease 0s}
+.nav__links li a:hover {color: #F26835;}
+a {text-decoration: none; color: #F2EADF; margin: 20px;}
+
+
+
+
+
+/* Mobile */
+
+@media all and (max-width: 1200px) {
+
+  body body {
+          animation: fadeInAnimation ease 3s;
+          animation-iteration-count: 1;
+          animation-fill-mode: forwards;
+      }
+      @keyframes fadeInAnimation {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }
+      }
+
+html {background: url('images/Sfondo granuloso.png') no-repeat center center;
+ height: 100%}
+.headline {background: url('images/Sfondo granuloso.png') no-repeat center center;
+ height: 100%; height: 100%; padding-bottom: 0px; }
+.icons {display: none;}
+.menu {padding-top: 10%; padding-bottom: 0%; text-align: center; font-size: 32px; font-weight: normal;}
+li {display: inline; width: 100%;}
+.menu .nav__links li {padding-bottom: 100px;}
+.hamburger{cursor: pointer; display: block; width: 30px; height: 30px;  position: absolute; top: 40px; right: 30px;}
+.hamburger span {background: #ECEBE4; height: 3px; width: 100%; display: block; margin-bottom: 5px}
+header {background-image: none; display: inline;}
+
+.lang-menu {font-size: 32px; border-radius: 4px; position: absolute; right: 80px; top: 80px; background-color:#BF935E; color: #ECEBE4; padding: 6px}
+
+.selected-lang {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.lang-menu ul {
+  margin:0px;
+  padding: 0px;
+  background-color: #BF935E;
+  box-shadow: 0px 1px 10px rgba(191,147,94,0.2);
+  border-radius: 4px;
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0}
+
+.lang-menu:hover ul{display: block; border-radius: 4px}
+
+.lang-menu ul li {list-style: none; }
+
+.lang-menu ul li a {
+  display: block;
+  width: 85;
+  padding:5px;
+  color:#ECEBE4}
+
+.lang-menu ul li a:hover {background-color: #F26835 }
+
+a {text-decoration: none;}
