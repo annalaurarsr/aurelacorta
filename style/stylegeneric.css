@@ -153,6 +153,7 @@ menu {display: inline-grid;}
 
 .headline {
   background: url('images/Sfondo granuloso.png') no-repeat center center;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   padding: 80px 50px;
