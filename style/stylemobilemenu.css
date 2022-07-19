@@ -17,7 +17,7 @@ h1, h2 {
   margin-top: 100px;}
 
 p {
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 400;
   color: #F2EADF;
   margin-top: 50px;}
@@ -59,7 +59,9 @@ ul{padding-inline-start: 0px;}
 .menu .nav__links li {display: inline-block; padding-top: 0; padding-left: 0;}
 .nav__links li a {transition: all 0.3s ease 0s}
 .nav__links li a:hover {color: #F26835;}
-a {text-decoration: none; color: #F2EADF; margin: 20px;}
+a {text-decoration: none;
+  color: #F2EADF;
+  margin: 20px;}
 
 
 
@@ -86,17 +88,17 @@ body {background: url('images/Sfondo granuloso.png') no-repeat center center;
  height: 100%}
 
 .icons {display: none;}
-.menu {padding-top: 10%; padding-bottom: 0%; text-align: center; font-size: 32px; font-weight: normal;}
+.menu {padding-top: 25%; padding-bottom: 0%; text-align: center; font-size: 44px; font-weight: normal;}
 li {display: inline; width: 100%;}
-.menu .nav__links li {padding-bottom: 100px;}
+.menu .nav__links li {padding-bottom: 125px;}
 .hamburger{cursor: pointer; display: block; width: 30px; height: 30px;  position: absolute; top: 40px; right: 30px;}
 .hamburger span {background: #ECEBE4; height: 3px; width: 100%; display: block; margin-bottom: 5px}
 header {background-image: none; display: inline;}
 
-.lang-menu {font-size: 32px; border-radius: 4px; position: absolute; right: 80px; top: 80px; background-color:#BF935E; color: #ECEBE4; padding: 6px}
+.lang-menu {font-size: 42px; border-radius: 4px; position: absolute; right: 80px; top: 80px; background-color:#BF935E; color: #ECEBE4; padding: 6px}
 
 .selected-lang {
-  font-size: 32px;
+  font-size: 42px;
   cursor: pointer;
 }
 
