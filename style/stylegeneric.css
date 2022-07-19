@@ -233,7 +233,7 @@ footer i:hover {color: #F26835}
 /*HOMEPAGE*/
 header {
   background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.5)),
-   url('images/band2.jpg') no-repeat center center;
+   url('images/band2.png') no-repeat center center;
    background-size: cover;
    background-attachment: fixed;
    width: 100%}
@@ -797,24 +797,24 @@ padding: 25px;}
   .hamburger{
     cursor: pointer;
     display: block;
-    width: 50px;
-    height: 500px;
+    width: 30px;
+    height: 30px;
     position: absolute;
     top: 80px;
     right: 60px;}
 
   .hamburger span {
     background: #ECEBE4;
-    height: 6px;
+    height: 3px;
     width: 100%;
     display: block;
-    margin-bottom: 10px}
+    margin-bottom: 5px}
   h1, h2, h3, p {text-align: center;}
-  h1 {font-size: 42px}
+  h1 {font-size: 40px}
   h2 {font-size: 36px}
   h3 {font-size: 16px}
   h1 {padding-top: 0px}
-  p {font-size: 28px; margin: 50px 0px;}
+  p {font-size: 20px; margin: 50px 0px;}
 
   header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.4)),
    url('images/bandmobile.png') no-repeat center center;
@@ -830,12 +830,19 @@ padding: 25px;}
 
   .sec1, .sec2, .sec3, .sec4, .news, .gallery {text-align: center; padding: 75px 75px; display: block;}
   .image1, .image2, .image3, .image4 {padding-left: 0px; padding-right: 0px; background-attachment: scroll; background-size: contain;}
-  .image1 {background: url('images/band.png') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 40vh}
-  .image2 {background: url('images/00gotti.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh}
-  .image3 {background: url('images/00ermes.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh; padding-top: 50px}
-  .image4 {background: url('images/00max.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh}
-  .image5 {background: url('images/sfondo.jpg')no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 25vh}
-  .text3, .text4 {width: 100%; padding-top: 75px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;}
+
+
+  .image1 {background: url('images/music.jpg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 40vh}
+  .image2 {background: url('images/band.png') no-repeat 0% 50%; background-attachment: fixed; background-size: contain; min-width: 50%; width: 50%}
+
+  .imageband1 {background: url('images/band.png') no-repeat 100% 50%; background-attachment: fixed; background-size: contain; min-width: 50%; width: 50%}
+  .imageband2 {background: url('images/00gotti.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh; margin-bottom: 25px}
+  .imageband3 {background: url('images/00ermes.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh; margin-top: 25px}
+  .imageband4 {background: url('images/00max.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh; margin-bottom: 25px}
+
+  .image3 {background: url('images/sfondo.jpg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh}
+
+  .text3, .text4 {width: 100%; padding: 0px}
   .text1, .text2 {width: 100%; padding: 0px}
 
 
@@ -846,6 +853,10 @@ padding: 25px;}
   img {float: none; width: 100%}
   button {margin-top: 15px}
 
+.menuicon {
+  position: fixed;
+  top: 95vh;
+  right: 10%;}
   .orangebutton {margin-bottom:0px; padding: 0px}
   .goldbutton{margin-bottom: 75px;  margin-top: 0px}
   .puntini {padding-bottom: 0px}
