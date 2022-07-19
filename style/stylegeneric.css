@@ -809,6 +809,7 @@ padding: 25px;}
     width: 100%;
     display: block;
     margin-bottom: 5px}
+
   h1, h2, h3, p {text-align: center;}
   h1 {font-size: 40px}
   h2 {font-size: 36px}
@@ -819,9 +820,9 @@ padding: 25px;}
   header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.4)),
    url('images/bandmobile.png') no-repeat center center;
    background-size: cover;
-  height: 800px}
+  height: 60vh}
 
-  .headline {height: 800px; padding-left: 30%; padding-right: 30%; text-align: center; width:100%; display: block; justify-content: center;}
+  .headline {height: 60vh; padding-left: 30%; padding-right: 30%; text-align: center; width:100%; display: block; justify-content: center;}
 
   .eventtitle {font-size: 28px}
   .instrument {margin: 0}
