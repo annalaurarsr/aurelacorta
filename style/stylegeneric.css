@@ -817,12 +817,20 @@ padding: 25px;}
   h1 {padding-top: 0px}
   p {font-size: 20px; margin: 50px 0px;}
 
-  header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.4)),
+  header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.9)),
    url('images/bandmobile.png') no-repeat center center;
    background-size: cover;
   height: 60vh}
 
   .headline {height: 60vh; padding-left: 30%; padding-right: 30%; text-align: center; width:100%; display: block; justify-content: center;}
+
+  .homeheadline {    height: 60vh;
+    padding-left: 33%;
+    padding-right: 33%;
+    text-align: center;
+    width: 100%;
+    display: block;
+    justify-content: center;}
 
   .eventtitle {font-size: 28px}
   .instrument {margin: 0}
@@ -850,6 +858,8 @@ padding: 25px;}
   iframe {
     max-width: 100%;
     margin-bottom: 50px;}
+
+.logo {padding-left: 50%; padding-right: 50%}
 
   img {float: none; width: 100%}
   button {margin-top: 15px}
