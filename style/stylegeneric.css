@@ -800,8 +800,8 @@ padding: 25px;}
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 80px;
-    right: 60px;}
+    top: 40px;
+    right: 40px;}
 
   .hamburger span {
     background: #ECEBE4;
@@ -817,7 +817,7 @@ padding: 25px;}
   h1 {padding-top: 0px}
   p {font-size: 20px; margin: 50px 0px;}
 
-  header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.9)),
+  header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.8)),
    url('images/bandmobile.png') no-repeat center center;
    background-size: cover;
   height: 60vh}
@@ -825,8 +825,8 @@ padding: 25px;}
   .headline {height: 60vh; padding-left: 30%; padding-right: 30%; text-align: center; width:100%; display: block; justify-content: center;}
 
   .homeheadline {    height: 60vh;
-    padding-left: 33%;
-    padding-right: 33%;
+    padding-left: 30%;
+    padding-right: 30%;
     text-align: center;
     width: 100%;
     display: block;
@@ -837,7 +837,7 @@ padding: 25px;}
   .instrumentermes {margin: 0; color: #4F5940;}
   section {text-align: center; display: block; padding: 75px 25px;}
 
-  .sec1, .sec2, .sec3, .sec4, .news, .gallery {text-align: center; padding: 75px 75px; display: block;}
+  .sec1, .sec2, .sec3, .sec4, .news, .gallery {text-align: center; padding: 50px 25px; display: block;}
   .image1, .image2, .image3, .image4 {padding-left: 0px; padding-right: 0px; background-attachment: scroll; background-size: contain;}
 
 
