@@ -68,8 +68,7 @@ a {text-decoration: none; color: #F2EADF; margin: 20px;}
 /* Mobile */
 
 @media all and (max-width: 1200px) {
-
-  body body {
+body {
           animation: fadeInAnimation ease 3s;
           animation-iteration-count: 1;
           animation-fill-mode: forwards;
@@ -83,10 +82,9 @@ a {text-decoration: none; color: #F2EADF; margin: 20px;}
           }
       }
 
-html {background: url('images/Sfondo granuloso.png') no-repeat center center;
+body {background: url('images/Sfondo granuloso.png') no-repeat center center;
  height: 100%}
-.headline {background: url('images/Sfondo granuloso.png') no-repeat center center;
- height: 100%; height: 100%; padding-bottom: 0px; }
+
 .icons {display: none;}
 .menu {padding-top: 10%; padding-bottom: 0%; text-align: center; font-size: 32px; font-weight: normal;}
 li {display: inline; width: 100%;}

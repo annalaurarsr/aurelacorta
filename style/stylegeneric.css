@@ -783,46 +783,69 @@ padding: 25px;}
 
   /* Mobile Version*/
   @media all and (max-width: 1200px) {
-
-
-  .titletext {width: 100%; text-align: center; padding-bottom: 0px}
+  .titletext {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 0px}
   body {height: auto;}
-  .icons {display: 200px;}
+
+  .icons {display: none}
+
+  nav {display: none}
+
   .nav__links {display: none;}
   .hamburger{
     cursor: pointer;
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 500px;
     position: absolute;
     top: 80px;
     right: 60px;}
-  .hamburger span {background: #ECEBE4; height: 3px; width: 100%; display: block; margin-bottom: 5px}
+
+  .hamburger span {
+    background: #ECEBE4;
+    height: 6px;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px}
   h1, h2, h3, p {text-align: center;}
   h1 {font-size: 42px}
-  h2 {font-size: 28px}
+  h2 {font-size: 36px}
   h3 {font-size: 16px}
   h1 {padding-top: 0px}
-  p {font-size: 20px; margin: 50px 0px;}
-  .headline {height: 100%}
+  p {font-size: 28px; margin: 50px 0px;}
+
+  header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.4)),
+   url('images/bandmobile.png') no-repeat center center;
+   background-size: cover;
+  height: 800px}
+
+  .headline {height: 800px; padding-left: 30%; padding-right: 30%; text-align: center; width:100%; display: block; justify-content: center;}
+
   .eventtitle {font-size: 28px}
   .instrument {margin: 0}
   .instrumentermes {margin: 0; color: #4F5940;}
-  section {text-align: center; display: block;}
-  .sec1, .sec2, .sec3, .sec4 {text-align: center; padding: 75px 75px; display: block;}
-  .image1, .image2, .image3, .image4 {padding-left: 0px; padding-right: 0px; background-attachment: scroll; background-size: contain;}
+  section {text-align: center; display: block; padding: 75px 25px;}
 
+  .sec1, .sec2, .sec3, .sec4, .news, .gallery {text-align: center; padding: 75px 75px; display: block;}
+  .image1, .image2, .image3, .image4 {padding-left: 0px; padding-right: 0px; background-attachment: scroll; background-size: contain;}
   .image1 {background: url('images/band.png') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 40vh}
   .image2 {background: url('images/00gotti.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh}
   .image3 {background: url('images/00ermes.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh; padding-top: 50px}
   .image4 {background: url('images/00max.jpeg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh}
-
   .image5 {background: url('images/sfondo.jpg')no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 25vh}
+  .text3, .text4 {width: 100%; padding-top: 75px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;}
+  .text1, .text2 {width: 100%; padding: 0px}
 
-  .text1, .text2, .text3, .text4 {width: 100%; padding-top: 37.5px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;}
+
+  iframe {
+    max-width: 100%;
+    margin-bottom: 50px;}
 
   img {float: none; width: 100%}
   button {margin-top: 15px}
+
   .orangebutton {margin-bottom:0px; padding: 0px}
   .goldbutton{margin-bottom: 75px;  margin-top: 0px}
   .puntini {padding-bottom: 0px}
@@ -862,50 +885,11 @@ padding: 25px;}
       text-align: center;
       width: 100%;}
 
-  /*mobGallery PAGE*/
-  .row {display: block; width: 100%; padding-bottom: 75px}
-  .column {width: 100%;}
+      /*mobGallery PAGE*/
+    .row {display: block; width: 100%; padding-bottom: 75px}
+    .column {width: 100%;}
 
-  /*mobContact PAGE*/
-  .formcontainer {height: 100%}
-  .sendbutton {margin-right: 0%; margin-top: 75px}
-  .input {margin: 50px 0px}
-
-  /* HOME Mobile Version*/
-  @media all and (max-width: 1200px) {
-  header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.4)),
-   url('images/bandmobile.png') no-repeat center center;
-   background-size: cover;
-  height: 70vh}
-  .headline {height: 800px; padding-left: 30%; padding-right: 30%; text-align: center; width:100%; display: block; justify-content: center;}
-  .icons {display: none;}
-  nav {display: none;}
-  .hamburger{cursor: pointer; display: block; width: 30px; height: 30px;  position: absolute; top: 40px; right: 30px;}
-  .hamburger span {background: #ECEBE4; height: 3px; width: 100%; display: block; margin-bottom: 5px}
-  h1, h2, h3, p {text-align: center;}
-  h1, h2 {font-size: 28px; padding-top: 0}
-  h3 {font-size: 14px}
-  p {font-size: 20px; margin: 50px 0px;}
-  .bandcolumn, .musiccolumn {text-align: center; padding: 0px}
-  .bandimage {padding-bottom: 50px}
-  .music, .band {display: block;}
-
-  img {float: none; width: 100%}
-  button {margin-top: 15px}
-  .orangebutton {margin-bottom:0px; margin-top: 0;}
-  .goldbutton{margin-bottom: 50px; margin-top: 0px}
-  .puntini {padding-bottom: 0px}
-
-  section {text-align: center; display: block; padding: 75px 25px;}
-  .news, .gallery {padding: 75px 25px}
-  .sec1, .sec2, .sec3, .sec4, .news, .gallery {text-align: center; display: block;}
-  .image1, .image2, .image3, .image4 {padding-left: 0px; padding-right: 0px; background-attachment: scroll; background-size: contain;}
-  .text3, .text4, {width: 100%; padding-top: 75px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px;}
-  .text1, .text2 {width: 100%; padding: 0px}
-  .image1 {background: url('images/music.jpg') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 40vh}
-  .image2 {background: url('images/band.png') no-repeat center center; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 40vh; margin-bottom: 50px}
-  .image3 {background: url('images/00max.jpeg') no-repeat 100% 50%; background-attachment: scroll; background-size: contain; min-width: 100%; width: 100%; height: 50vh}
-
-  iframe {
-    max-width: 100%;
-    margin-bottom: 50px;}
+    /*mobContact PAGE*/
+    .formcontainer {height: 100%}
+    .sendbutton {margin-right: 0%; margin-top: 75px}
+    .input {margin: 50px 0px}
