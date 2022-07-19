@@ -817,14 +817,18 @@ padding: 25px;}
   h1 {padding-top: 0px}
   p {font-size: 20px; margin: 50px 0px;}
 
-  header {background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.8)),
-   url('images/bandmobile.png') no-repeat center center;
-   background-size: cover;
-  height: 60vh}
+  header {
+  height: 40vh}
 
-  .headline {height: 60vh; padding-left: 30%; padding-right: 30%; text-align: center; width:100%; display: block; justify-content: center;}
+  .homeheader {height: 60vh}
 
-  .homeheadline {    height: 60vh;
+  .headline {height: 40vh; padding-left: 30%; padding-right: 30%; text-align: center; width:100%; display: block; justify-content: center;}
+
+  .homeheadline {
+    background: linear-gradient(0deg, rgba(0,0,0,.1), rgba(0,0,0, 0.8)),
+     url('images/bandmobile.png') no-repeat center center;
+     background-size: cover;
+    height: 60vh;
     padding-left: 30%;
     padding-right: 30%;
     text-align: center;
@@ -910,7 +914,9 @@ padding: 25px;}
       /*mobGallery PAGE*/
     .row {display: block; width: 100%; padding-bottom: 75px}
     .column {width: 100%;}
-
+    .modal-content {max-width: 98%}
+    .numbertext {position:absolute; top: -45px}
+    .secgallery {padding: 0px}
     /*mobContact PAGE*/
     .formcontainer {height: 100%}
     .sendbutton {margin-right: 0%; margin-top: 75px}
